@@ -1,14 +1,7 @@
 # openenv
 Built a real-world task scheduling environment using OpenEnv standards. Implemented a Q-learning agent to optimize CPU job execution based on priority and duration. Deployed an interactive RL dashboard using Gradio on Hugging Face Spaces for live simulation and evaluation.
 ---
-title: Task Scheduler Env
-emoji: 🔥
-colorFrom: gray
-colorTo: yellow
-sdk: docker
-pinned: false
-license: mit
-short_description: CPU task scheduling RL environment
+CPU task scheduling RL environment
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
