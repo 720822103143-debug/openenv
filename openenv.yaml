@@ -1,0 +1,19 @@
+environment:
+  name: Task Scheduler Environment
+  description: Simulates CPU job scheduling using priority-based RL environment
+  version: 1.0
+
+agent:
+  action_space:
+    type: discrete
+    description: Select job IDs to assign
+
+  observation_space:
+    type: dict
+    description: Pending jobs with duration and priority
+
+reward:
+  description: Higher reward for completing high-priority jobs faster
+
+evaluation:
+  metric: normalized_score
